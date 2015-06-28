@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_label">GPS Bay</string>
+    <string name="search_hint">Search GPS Bay</string>
+
+    <string name="app_name">GPS Bay</string>
+    <string name="package_name">com.tiny.gpsbay</string>
+    <string name="parse_app_id">FfEJVtoyijKBGwxON6SklYnXodGyWoeepo8d1FhA</string>
+    <string name="parse_app_client_key">zi9Nfxp49BhQsrllanuZXYrMy7GkQ0uvJo8fDbQz</string>
+    <string name="mapbox_app_map_id">gpsbaytiny.c2cb4032</string>
+    <string name="mapbox_app_api_key">pk.eyJ1IjoiZ3BzYmF5dGlueSIsImEiOiI1YjhmZTExZDlkMWVhNTc4MDZhYjM1ZDI5YzdlZTczYyJ9.zkUrX5RMjpU_fw8O6kikaA</string>
+
+    <string name="menubtn_gps_title">GPS NAVIGATION</string>
+    <string name="menubtn_gps_desc">Get to your destination with just a tap.</string>
+    <color name="menubtn_gps_bg">@color/color_theme_bg_lightgray</color>
+
+    <string name="menubtn_place_title">PLACES OF INTERESTS</string>
+    <string name="menubtn_place_desc">What to see and what to do in indonesia.</string>
+    <color name="menubtn_place_bg">@color/color_theme_bg_purple</color>
+    <string name="place_subtitle"></string>
+
+    <string name="menubtn_hotel_title">HOTELS</string>
+    <string name="menubtn_hotel_desc">Feel at home, even when aboard.</string>
+    <color name="menubtn_hotel_bg">@color/color_theme_bg_blue</color>
+    <string name="hotel_subtitle"></string>
+
+    <string name="menubtn_airport_title">AIRPORT ATTRACTIONS</string>
+    <string name="menubtn_airport_desc">Waiting is more fun in these airports.</string>
+    <color name="menubtn_airport_bg">@color/color_theme_bg_red</color>
+    <string name="airport_subtitle"></string>
+
+    <string name="menubtn_travel_title">TRAVEL SAFE</string>
+    <string name="menubtn_travel_desc">Tips to keep you safe.</string>
+    <color name="menubtn_travel_bg">@color/color_theme_bg_green</color>
+    <string name="travel_subtitle"></string>
+
+    <string name="menubtn_bahasa_title">LEARN BAHASA INDONESIA</string>
+    <string name="menubtn_bahasa_desc">Speak like a local. Make a connection.</string>
+    <color name="menubtn_bahasa_bg">@color/color_theme_bg_orange</color>
+    <string name="bahasa_subtitle"></string>
+
+    <string name="menubtn_contact_title">EMERGENCY CONTACT LIST</string>
+    <string name="menubtn_contact_desc">Emergency numbers for unexpected situations.</string>
+    <color name="menubtn_contact_bg">@color/color_theme_bg_brown</color>
+    <string name="contact_subtitle"></string>
+
+    <string name="menubtn_about_title">ABOUT THIS APP</string>
+    <string name="menubtn_about_desc">Where navigation and information come in a tap.</string>
+    <color name="menubtn_about_bg">@color/color_theme_bg_deepgray</color>
+    <string name="about_subtitle"></string>
+
+    <string name="about_desc">GPS Bay is an app that not only provides you with the fastest route in Indonesia. It is also an app that gives you bite-sized information about Indonesia such as places of interest, hotel and accommodation, airport attractions, the Indonesian language, tips to stay safe and emergency contacts.</string>
+</resources>

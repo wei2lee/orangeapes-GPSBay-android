@@ -1,0 +1,42 @@
+[
+    {
+        "title":"Police (General Emergencies)",
+        "description":"Tel: 110 / 112 (SMS 1717)",
+        "phone":"110"
+    },
+    {
+        "title":"Ambulance and Rescue",
+        "description":"Tel: 118",
+        "phone":"118"
+    },
+    {
+        "title":"Fire Brigade",
+        "description":"Tel: 113",
+        "phone":"113"
+    },
+    {
+        "title":"Medical Emergencies",
+        "description":"Tel: 119",
+        "phone":"119"
+    },
+    {
+        "title":"Search & Rescue",
+        "description":"Tel: 111 / 115 / 151",
+        "phone":"111"
+    },
+    {
+        "title":"Global Doctor",
+        "description":"Tel: (021) 7182029",
+        "phone":"0217182029"
+    },
+    {
+        "title":"Directory Assistance",
+        "description":"Tel: 108 (national), 102(international)",
+        "phone":"108"
+    },
+    {
+        "title":"Internationl SOS, Jakarta, Alarm Centre",
+        "description":"Tel: (021) 750 6001",
+        "phone":"0217506001"
+    }
+]

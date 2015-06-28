@@ -1,0 +1,49 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="content_activity_navigationbar_height">50dp</dimen>
+    <dimen name="content_activity_subtitle_height">50dp</dimen>
+    <dimen name="content_activity_horizontal_padding">15dp</dimen>
+    <dimen name="content_activity_list_header_height">50dp</dimen>
+    <dimen name="content_activity_list_cell_height">54dp</dimen>
+
+    <dimen name="content_activity_listbigitem_header_height">60dp</dimen>
+    <dimen name="content_activity_listbigitem_content_horizontal_padding">4dp</dimen>
+    <dimen name="content_activity_listbigitem_content_vertical_padding">20dp</dimen>
+    <dimen name="content_activity_listbigitem_separator">2dp</dimen>
+
+
+
+    <dimen name="content_activity_navigationbar_text_size">20dp</dimen>
+    <dimen name="content_activity_subtitle_text_size">16dp</dimen>
+    <dimen name="content_activity_list_header_text_size">20dp</dimen>
+    <dimen name="content_activity_list_text_size">18dp</dimen>
+
+    <dimen name="content_activity_listbigitem_maintitle_text_size">18dp</dimen>
+    <dimen name="content_activity_listbigitem_text_size">12dp</dimen>
+
+    <dimen name="menu_activity_btn_horizontal_shadowoffset_negative">-4dp</dimen>
+    <dimen name="menu_activity_btn_vertical_shadowoffset_negative">-4dp</dimen>
+    <dimen name="menu_activity_btn_horizontal_shadowoffset">4dp</dimen>
+    <dimen name="menu_activity_btn_vertical_shadowoffset">4dp</dimen>
+    <dimen name="menu_activity_btn_border">2dp</dimen>
+    <dimen name="menu_activity_btn_vertical_padding">6dp</dimen>
+    <dimen name="menu_activity_btn_title_marginbottom">0dp</dimen>
+    <dimen name="menu_activity_btn_horizontal_padding">11dp</dimen>
+    <dimen name="menu_activity_btn_spacing">3dp</dimen>
+
+    <dimen name="menu_activity_btn_title_text_size">16dp</dimen>
+    <dimen name="menu_activity_btn_desc_text_size">12dp</dimen>
+
+    <dimen name="contact_activity_item_text_size">18dp</dimen>
+    <dimen name="contact_activity_desc_text_size">16dp</dimen>
+    <dimen name="contact_activity_item_marginbottom">6dp</dimen>
+    <dimen name="contact_activity_desc_item_marginbottom">19dp</dimen>
+
+    <dimen name="about_activity_logo_vertical_padding">15dp</dimen>
+    <dimen name="about_activity_desc_marginbottom">29dp</dimen>
+
+    <item name="menu_activity_width_percent" format="integer" type="dimen">62</item>
+</resources>

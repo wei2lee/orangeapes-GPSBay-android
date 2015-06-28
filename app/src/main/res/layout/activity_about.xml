@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bg"
+        android:src="@mipmap/splash_bg"
+        android:scaleType="centerCrop"
+         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content_activity_navigationbar_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:background="#ffffb308"
+        android:id="@+id/view_navigationbar">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_back"
+            android:src="@mipmap/left_arrow"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="0dp"
+            android:scaleType="fitCenter"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingRight="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLACE OF INTERESTS"
+            android:id="@+id/text_title"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/content_activity_navigationbar_text_size"
+            android:textColor="@color/color_navigationbar_title" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_navigationbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:id="@+id/scrollView">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/content_activity_horizontal_padding"
+            android:paddingRight="@dimen/content_activity_horizontal_padding"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/content_activity_subtitle_height"
+                android:text="New Text"
+                android:id="@+id/text_subtitle"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="@dimen/content_activity_subtitle_text_size"
+                android:gravity="center_vertical"
+                android:textColor="@color/color_text" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/container_logo"
+                android:layout_below="@+id/text_subtitle"
+                android:weightSum="100"
+
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:layout_weight="62"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/logo"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/about_activity_logo_vertical_padding" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_desc"
+                android:id="@+id/text_desc"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/container_logo"
+                android:gravity="center_horizontal"
+                android:textColor="@color/color_text"
+                android:layout_marginBottom="@dimen/about_activity_desc_marginbottom"
+                android:lineSpacingExtra="6sp"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

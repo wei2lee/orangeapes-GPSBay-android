@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content_activity_navigationbar_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:background="#ffffb308"
+        android:id="@+id/view_navigationbar">
+
+        <AutoCompleteTextView
+            android:textColor="@color/color_text_darkest"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:id="@+id/autocompleteview"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:textSize="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_navigationbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/color_bg"
+
+        >
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/fragment_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.tiny.gpsbay.CustomMapFragment"
+
+            />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_locate"
+            android:layout_marginRight="8dp"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/current_location"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:layout_marginTop="12dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cyclist_label"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/cyclist_label"
+            android:layout_below="@+id/btn_locate"
+            android:layout_alignRight="@+id/btn_locate"
+            android:layout_alignEnd="@+id/btn_locate"
+            android:layout_marginRight="-5dp"
+            android:visibility="visible"
+            android:alpha="1" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

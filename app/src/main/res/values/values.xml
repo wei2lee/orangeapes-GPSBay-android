@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="splash_timeout">5000</integer>
+    <integer name="tracking_update_interval">3000</integer>
+    <integer name="trackings_query_interval">3000</integer>
+    <integer name="map_route_width">9</integer>
+    <integer name="map_min_movement_for_update_heading">100</integer> <!-- meter -->
+    <integer name="map_min_velocity_for_update_heading">3</integer><!-- meter per second -->
+    <integer name="map_start_zoom">16</integer>
+    <integer name="map_min_accuracy_for_location_update">40</integer> <!-- meter -->
+</resources>

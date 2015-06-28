@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/placeholder_1x1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content_activity_listbigitem_header_height"
+        android:text="Main Title"
+        android:id="@+id/text_title"
+        android:layout_below="@+id/image_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/content_activity_listbigitem_maintitle_text_size"
+        android:textColor="@color/color_text_darkest"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/content_activity_listbigitem_content_horizontal_padding"
+        android:paddingRight="@dimen/content_activity_listbigitem_content_horizontal_padding" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content_activity_listbigitem_separator"
+        android:layout_below="@+id/text_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffff6a00"
+        android:id="@+id/view_separator"></RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/text_desc"
+        android:layout_below="@+id/view_separator"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="@dimen/content_activity_listbigitem_content_horizontal_padding"
+        android:paddingRight="@dimen/content_activity_listbigitem_content_horizontal_padding"
+        android:paddingTop="@dimen/content_activity_listbigitem_content_vertical_padding"
+        android:paddingBottom="@dimen/content_activity_listbigitem_content_vertical_padding"
+        android:textColor="@color/color_text_darkest"
+        android:textSize="@dimen/content_activity_listbigitem_text_size" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_theme_bg_lightgray" type="color">#878786</color>
+    <color name="color_theme_bg_lightgreen" type="color">#81ccc0</color>
+    <color name="color_theme_bg_purple" type="color">#8d1d81</color>
+    <color name="color_theme_bg_blue" type="color">#0052a1</color>
+    <color name="color_theme_bg_red" type="color">#e50047</color>
+    <color name="color_theme_bg_green" type="color">#61ac2c</color>
+    <color name="color_theme_bg_orange" type="color">#ee7202</color>
+    <color name="color_theme_sub_bg_orange" type="color">#f9b234</color>
+    <color name="color_theme_bg_brown" type="color">#693c10</color>
+    <color name="color_theme_bg_deepgray" type="color">#3c3c3b</color>
+    <color name="color_menubtn_text" type="color">#FFFFFF</color>
+    <color name="color_menubtn_border">#ffffff</color>
+    <color name="color_text" type="color">#FFFFFF</color>
+    <color name="color_text_light" type="color">#c1c5c7</color>
+    <color name="color_text_dark" type="color">#505457</color>
+    <color name="color_text_darkest" type="color">#000000</color>
+
+    <color name="color_map_route" type="color">#00BCF0</color>
+    <color name="color_map_icon_bg_dark" type="color">#2D3033</color>
+    <color name="color_map_icon_bg_red" type="color">#EE3134</color>
+    <color name="color_map_icon" type="color">#ffffff</color>
+    <color name="color_map_label_bg" type="color">#1D2225</color>
+    <color name="color_map_label_text" type="color">#ffffff</color>
+
+    <color name="color_panel_header_bg">#2d3133</color>
+    <color name="color_panel_body_bg">#59c2b9</color>
+
+    <color name="color_navigationbar_title">#ffffff</color>
+    <color name="color_bg">#ffffff</color>
+
+</resources>

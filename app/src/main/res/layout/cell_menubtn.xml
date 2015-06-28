@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/menu_activity_btn_spacing">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/border"
+        android:layout_alignLeft="@+id/border"
+        android:layout_alignBottom="@+id/border"
+        android:layout_alignRight="@+id/border"
+        android:layout_marginRight="@dimen/menu_activity_btn_horizontal_shadowoffset_negative"
+        android:layout_marginBottom="@dimen/menu_activity_btn_vertical_shadowoffset_negative"
+        android:id="@+id/shadow"
+        android:background="#1e000000"
+        android:layout_marginLeft="@dimen/menu_activity_btn_horizontal_shadowoffset"
+        android:layout_marginTop="@dimen/menu_activity_btn_vertical_shadowoffset"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_menubtn_border"
+        android:layout_marginRight="@dimen/menu_activity_btn_horizontal_shadowoffset"
+        android:layout_marginBottom="@dimen/menu_activity_btn_vertical_shadowoffset"
+        android:id="@+id/border">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_body"
+            android:layout_margin="@dimen/menu_activity_btn_border"
+            android:background="#ffffc935"
+            android:paddingTop="@dimen/menu_activity_btn_vertical_padding"
+            android:paddingBottom="@dimen/menu_activity_btn_vertical_padding"
+            android:paddingRight="@dimen/menu_activity_btn_horizontal_padding"
+            android:paddingLeft="@dimen/menu_activity_btn_horizontal_padding">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GPS Navigation"
+                android:id="@+id/text_title"
+                android:textColor="@color/color_menubtn_text"
+                android:layout_marginBottom="@dimen/menu_activity_btn_title_marginbottom"
+                android:textSize="@dimen/menu_activity_btn_title_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get to your destination with just a tap"
+                android:id="@+id/text_desc"
+                android:textColor="@color/color_menubtn_text"
+                android:layout_below="@+id/text_title"
+                android:textSize="@dimen/menu_activity_btn_desc_text_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
